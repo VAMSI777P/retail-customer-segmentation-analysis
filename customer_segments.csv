@@ -1,0 +1,995 @@
+customer_id,recency,frequency,monetary,customer_age,gender,location,r_score,f_score,m_score,rfm_score,cluster,segment_name
+1,18,6,3650.5,40,Male,Texas,5,4,4,544,2,Champions
+2,586,2,2175.68,33,Female,New York,1,1,2,112,3,At Risk
+3,55,3,847.13,42,Male,Illinois,4,1,1,411,1,Potential Loyalists
+4,259,1,856.36,53,Female,Texas,1,1,1,111,1,At Risk
+5,420,3,807.5799999999999,32,Male,Texas,1,1,1,111,3,At Risk
+6,120,9,5196.5199999999995,32,Male,New York,3,5,5,355,0,Loyal Customers
+7,308,3,1650.93,53,Male,Illinois,1,1,1,111,3,At Risk
+8,40,2,1145.68,44,Male,Florida,4,1,1,411,1,Potential Loyalists
+9,198,4,3312.87,29,Female,Illinois,2,2,3,223,2,At Risk
+10,55,8,3717.87,41,Male,California,4,5,4,454,0,Champions
+11,312,2,1229.55,29,Female,Florida,1,1,1,111,3,At Risk
+12,31,5,1379.07,29,Male,Texas,5,3,1,531,1,Loyal Customers
+13,100,5,5033.1,37,Male,Florida,3,3,5,335,2,Loyal Customers
+14,136,6,3292.7799999999997,18,Male,Texas,3,4,3,343,2,Loyal Customers
+15,54,5,1987.9,18,Female,Texas,4,3,2,432,2,Loyal Customers
+16,486,2,2225.87,28,Male,Florida,1,1,2,112,3,At Risk
+17,211,5,1744.1,22,Female,Texas,2,3,2,232,1,At Risk
+18,100,5,4059.61,38,Female,Texas,3,3,4,334,2,Loyal Customers
+19,312,9,7506.96,24,Female,California,1,5,5,155,0,At Risk
+20,1,6,3508.3900000000003,18,Female,Illinois,5,4,4,544,2,Champions
+21,116,7,3680.66,52,Female,Illinois,3,4,4,344,2,Loyal Customers
+22,136,2,1251.5,32,Female,California,3,1,1,311,1,Others
+23,84,9,6506.87,35,Female,Florida,3,5,5,355,0,Loyal Customers
+24,8,2,2707.65,18,Female,New York,5,1,3,513,1,Potential Loyalists
+25,35,6,3044.52,28,Female,New York,5,4,3,543,2,Loyal Customers
+26,96,8,5633.41,36,Male,New York,3,5,5,355,0,Loyal Customers
+27,45,7,3849.91,21,Male,California,4,4,4,444,2,Champions
+28,111,5,2938.8900000000003,39,Male,California,3,3,3,333,2,Loyal Customers
+29,17,8,7297.06,27,Male,Texas,5,5,5,555,0,Champions
+30,36,4,1019.47,31,Male,New York,4,2,1,421,1,Potential Loyalists
+31,398,4,2824.0699999999997,27,Female,Florida,1,2,3,123,3,At Risk
+32,127,6,4953.71,57,Female,Florida,3,4,5,345,2,Loyal Customers
+33,213,2,2203.38,34,Female,New York,2,1,2,212,1,At Risk
+34,215,6,3550.36,22,Female,New York,2,4,4,244,2,At Risk
+36,111,7,2858.29,20,Female,California,3,4,3,343,2,Loyal Customers
+37,51,5,4380.76,37,Female,California,4,3,4,434,2,Loyal Customers
+38,18,5,3644.27,18,Male,California,5,3,4,534,2,Loyal Customers
+39,288,5,3875.4900000000002,19,Male,Illinois,1,3,4,134,2,At Risk
+40,211,2,998.71,37,Male,Florida,2,1,1,211,1,At Risk
+41,3,5,2141.16,43,Male,Florida,5,3,2,532,2,Loyal Customers
+42,527,2,758.4,37,Female,Texas,1,1,1,111,3,At Risk
+43,428,2,1481.46,33,Female,California,1,1,1,111,3,At Risk
+44,3,7,3087.2,31,Female,Illinois,5,4,3,543,2,Loyal Customers
+45,87,3,1675.55,18,Male,Illinois,3,1,2,312,1,Others
+46,200,4,2579.98,26,Female,Florida,2,2,3,223,1,At Risk
+47,90,4,2984.1,29,Female,California,3,2,3,323,2,Others
+48,267,4,1671.03,47,Female,Texas,1,2,2,122,1,At Risk
+49,438,2,329.32,39,Male,California,1,1,1,111,3,At Risk
+50,87,7,5698.2,18,Female,New York,3,4,5,345,0,Loyal Customers
+51,66,6,3110.36,38,Male,California,4,4,3,443,2,Loyal Customers
+52,74,5,3376.59,30,Male,New York,4,3,3,433,2,Loyal Customers
+53,16,4,3348.2799999999997,26,Male,New York,5,2,3,523,2,Potential Loyalists
+54,311,3,1461.0500000000002,42,Male,Texas,1,1,1,111,3,At Risk
+55,47,4,3758.96,47,Female,Florida,4,2,4,424,2,Potential Loyalists
+56,99,7,5739.57,46,Male,California,3,4,5,345,0,Loyal Customers
+57,363,4,2882.27,24,Male,New York,1,2,3,123,3,At Risk
+58,107,4,4040.9399999999996,31,Female,California,3,2,4,324,2,Others
+59,110,7,4956.54,38,Female,Florida,3,4,5,345,0,Loyal Customers
+60,31,5,2956.83,46,Male,Florida,5,3,3,533,2,Loyal Customers
+61,46,4,2060.41,29,Female,Illinois,4,2,2,422,1,Potential Loyalists
+62,20,8,5234.41,32,Male,Florida,5,5,5,555,0,Champions
+63,231,4,940.56,21,Male,Texas,2,2,1,221,1,At Risk
+64,208,4,2418.63,20,Male,New York,2,2,2,222,1,At Risk
+65,211,3,2003.6599999999999,44,Male,Illinois,2,1,2,212,1,At Risk
+66,114,4,2974.65,51,Female,Texas,3,2,3,323,2,Others
+67,365,2,2003.85,34,Male,California,1,1,2,112,3,At Risk
+68,94,2,521.3299999999999,47,Female,New York,3,1,1,311,1,Others
+69,3,10,5429.06,39,Female,Florida,5,5,5,555,0,Champions
+70,315,4,3107.7200000000003,27,Female,New York,1,2,3,123,3,At Risk
+71,140,3,3257.41,39,Female,California,3,1,3,313,1,Others
+72,42,3,1610.58,53,Male,Illinois,4,1,1,411,1,Potential Loyalists
+73,106,7,4434.52,34,Female,Illinois,3,4,4,344,0,Loyal Customers
+74,29,6,4240.98,53,Male,Illinois,5,4,4,544,2,Champions
+75,105,5,3451.6600000000003,18,Female,Florida,3,3,3,333,2,Loyal Customers
+76,382,2,1309.77,44,Female,Texas,1,1,1,111,3,At Risk
+77,243,5,2980.84,36,Male,Texas,1,3,3,133,2,At Risk
+78,186,3,1177.3400000000001,31,Male,New York,2,1,1,211,1,At Risk
+79,17,6,4150.33,36,Male,Florida,5,4,4,544,2,Champions
+80,258,3,2074.77,18,Female,Illinois,1,1,2,112,1,At Risk
+81,36,6,4491.88,32,Female,Illinois,4,4,4,444,2,Champions
+82,164,9,5434.47,39,Male,California,2,5,5,255,0,At Risk
+83,318,5,1834.05,52,Male,California,1,3,2,132,3,At Risk
+84,186,4,3100.84,28,Male,Illinois,2,2,3,223,2,At Risk
+85,160,8,4679.66,25,Male,Illinois,2,5,4,254,0,At Risk
+86,138,6,2583.97,28,Female,Florida,3,4,3,343,2,Loyal Customers
+87,106,5,3407.4700000000003,45,Male,Texas,3,3,3,333,2,Loyal Customers
+88,5,4,2950.3500000000004,38,Male,California,5,2,3,523,2,Potential Loyalists
+89,325,3,2217.78,28,Male,Texas,1,1,2,112,3,At Risk
+90,19,11,6606.95,41,Male,Florida,5,5,5,555,0,Champions
+91,261,4,3274.1,36,Female,Illinois,1,2,3,123,1,At Risk
+92,251,3,449.34999999999997,46,Male,Texas,1,1,1,111,1,At Risk
+93,156,5,4307.91,26,Female,Illinois,2,3,4,234,2,At Risk
+94,293,4,979.43,31,Male,Illinois,1,2,1,121,3,At Risk
+95,138,4,1384.7,30,Male,New York,3,2,1,321,1,Others
+96,245,2,3052.25,18,Female,Texas,1,1,3,113,1,At Risk
+97,37,5,3609.6,38,Male,Texas,4,3,4,434,2,Loyal Customers
+99,68,9,4250.3099999999995,35,Female,Florida,4,5,4,454,0,Champions
+100,151,5,3736.12,32,Male,New York,2,3,4,234,2,At Risk
+101,158,5,3793.99,18,Female,Illinois,2,3,4,234,2,At Risk
+102,31,2,2786.78,29,Female,California,5,1,3,513,1,Potential Loyalists
+103,239,4,5264.5599999999995,30,Female,California,1,2,5,125,2,At Risk
+104,13,6,4105.95,25,Female,New York,5,4,4,544,2,Champions
+105,317,3,2364.3100000000004,33,Female,Florida,1,1,2,112,3,At Risk
+106,60,5,3644.2799999999997,39,Female,Illinois,4,3,4,434,2,Loyal Customers
+107,53,8,4409.54,57,Female,Texas,4,5,4,454,0,Champions
+108,416,3,2880.34,37,Female,New York,1,1,3,113,3,At Risk
+109,404,2,575.77,38,Male,Florida,1,1,1,111,3,At Risk
+110,148,2,1056.17,34,Male,Texas,2,1,1,211,1,At Risk
+111,147,7,2329.7,18,Female,California,2,4,2,242,2,At Risk
+112,254,6,3922.4300000000003,34,Male,California,1,4,4,144,2,At Risk
+113,156,6,5660.530000000001,35,Female,Texas,2,4,5,245,0,At Risk
+114,460,2,463.77000000000004,64,Female,New York,1,1,1,111,3,At Risk
+115,48,8,4193.74,32,Male,California,4,5,4,454,0,Champions
+116,8,8,6252.91,38,Female,Illinois,5,5,5,555,0,Champions
+117,185,2,1474.7,34,Female,Texas,2,1,1,211,1,At Risk
+118,88,4,1487.77,20,Female,Texas,3,2,1,321,1,Others
+119,192,4,3728.1400000000003,48,Female,California,2,2,4,224,2,At Risk
+120,84,7,1987.61,44,Male,New York,3,4,2,342,2,Loyal Customers
+121,11,6,5182.19,44,Female,Illinois,5,4,5,545,0,Champions
+122,40,7,3832.43,24,Female,New York,4,4,4,444,2,Champions
+123,27,4,1864.6499999999999,51,Female,Florida,5,2,2,522,1,Potential Loyalists
+124,207,5,3383.4300000000003,18,Male,Florida,2,3,3,233,2,At Risk
+125,1,5,1841.54,42,Female,California,5,3,2,532,2,Loyal Customers
+126,13,5,2596.19,61,Male,California,5,3,3,533,2,Loyal Customers
+127,251,4,1609.87,23,Male,California,1,2,1,121,1,At Risk
+128,10,5,2264.42,28,Female,Florida,5,3,2,532,2,Loyal Customers
+129,61,7,3747.67,36,Female,New York,4,4,4,444,2,Champions
+130,11,5,4445.29,28,Male,New York,5,3,4,534,2,Loyal Customers
+131,8,8,7023.25,18,Female,California,5,5,5,555,0,Champions
+132,59,4,3200.79,35,Male,Illinois,4,2,3,423,2,Potential Loyalists
+133,255,9,6843.44,22,Male,New York,1,5,5,155,0,At Risk
+134,79,7,5068.1,40,Female,Florida,4,4,5,445,0,Champions
+135,113,6,3494.58,23,Female,Texas,3,4,3,343,2,Loyal Customers
+136,140,2,1612.91,53,Male,Texas,3,1,1,311,1,Others
+137,152,5,4213.87,25,Male,Texas,2,3,4,234,2,At Risk
+138,1,8,6067.049999999999,31,Male,Illinois,5,5,5,555,0,Champions
+139,84,4,3209.99,44,Male,California,3,2,3,323,2,Others
+140,200,3,1125.53,20,Female,Florida,2,1,1,211,1,At Risk
+141,121,6,4947.05,37,Female,Illinois,3,4,5,345,2,Loyal Customers
+142,280,1,788.31,50,Female,Florida,1,1,1,111,3,At Risk
+143,600,1,391.52,18,Female,Florida,1,1,1,111,3,At Risk
+144,63,4,1891.9299999999998,37,Female,California,4,2,2,422,1,Potential Loyalists
+145,381,2,640.61,38,Male,Texas,1,1,1,111,3,At Risk
+146,123,8,4562.76,44,Female,California,3,5,4,354,0,Loyal Customers
+147,58,10,4597.62,20,Female,Illinois,4,5,4,454,0,Champions
+148,94,5,3627.22,19,Female,Illinois,3,3,4,334,2,Loyal Customers
+149,111,8,4519.89,41,Female,Illinois,3,5,4,354,0,Loyal Customers
+150,401,3,1661.25,38,Female,California,1,1,2,112,3,At Risk
+151,709,1,1346.12,38,Male,Florida,1,1,1,111,3,At Risk
+152,348,4,1044.27,39,Male,Florida,1,2,1,121,3,At Risk
+154,326,4,4561.71,37,Female,Illinois,1,2,4,124,2,At Risk
+155,231,4,2495.0699999999997,38,Male,Florida,2,2,2,222,1,At Risk
+156,24,11,8137.36,26,Male,New York,5,5,5,555,0,Champions
+157,319,1,658.6,57,Female,Florida,1,1,1,111,3,At Risk
+158,73,5,4334.65,40,Female,Illinois,4,3,4,434,2,Loyal Customers
+159,50,6,4684.6900000000005,20,Female,Texas,4,4,5,445,2,Champions
+160,409,4,2397.77,42,Male,Illinois,1,2,2,122,3,At Risk
+161,204,7,2709.61,23,Male,California,2,4,3,243,2,At Risk
+162,188,7,7601.41,44,Female,Florida,2,4,5,245,0,At Risk
+163,43,4,2497.95,48,Female,Florida,4,2,2,422,1,Potential Loyalists
+164,45,6,3641.19,25,Male,California,4,4,4,444,2,Champions
+165,15,10,7625.45,46,Male,California,5,5,5,555,0,Champions
+166,129,6,4381.78,39,Female,Texas,3,4,4,344,2,Loyal Customers
+167,8,4,1766.4899999999998,44,Female,Florida,5,2,2,522,1,Potential Loyalists
+168,70,7,4195.63,57,Male,Florida,4,4,4,444,2,Champions
+169,14,2,1270.58,32,Female,Texas,5,1,1,511,1,Potential Loyalists
+170,170,2,790.24,25,Male,New York,2,1,1,211,1,At Risk
+171,157,5,2333.63,24,Male,Texas,2,3,2,232,2,At Risk
+172,5,9,5526.57,25,Male,Illinois,5,5,5,555,0,Champions
+173,126,7,3683.18,34,Male,Florida,3,4,4,344,2,Loyal Customers
+174,316,3,1165.3799999999999,39,Female,California,1,1,1,111,3,At Risk
+175,215,4,3831.36,38,Female,Illinois,2,2,4,224,2,At Risk
+176,67,4,3611.42,44,Male,Florida,4,2,4,424,2,Potential Loyalists
+177,21,8,4394.1900000000005,35,Male,Texas,5,5,4,554,0,Champions
+178,48,2,2208.6400000000003,52,Male,Illinois,4,1,2,412,1,Potential Loyalists
+179,5,10,7285.06,31,Male,Florida,5,5,5,555,0,Champions
+180,383,5,4092.69,67,Male,New York,1,3,4,134,3,At Risk
+181,71,7,2409.02,42,Female,New York,4,4,2,442,2,Loyal Customers
+182,20,5,4679.6,24,Female,California,5,3,4,534,2,Loyal Customers
+183,141,8,5218.62,22,Female,Florida,2,5,5,255,0,At Risk
+184,64,6,4117.05,40,Female,New York,4,4,4,444,2,Champions
+185,368,2,722.56,32,Male,Texas,1,1,1,111,3,At Risk
+186,104,3,2011.1299999999999,43,Male,Florida,3,1,2,312,1,Others
+187,15,8,3581.0699999999997,40,Male,Texas,5,5,4,554,0,Champions
+188,77,4,4348.25,34,Male,Texas,4,2,4,424,2,Potential Loyalists
+189,138,9,6875.9400000000005,24,Male,New York,3,5,5,355,0,Loyal Customers
+190,73,4,2893.94,18,Female,Florida,4,2,3,423,2,Potential Loyalists
+191,544,2,619.95,29,Male,Illinois,1,1,1,111,3,At Risk
+192,94,5,3864.12,45,Female,New York,3,3,4,334,2,Loyal Customers
+193,148,6,2528.42,37,Female,New York,2,4,2,242,2,At Risk
+194,389,2,848.5899999999999,20,Female,Florida,1,1,1,111,3,At Risk
+195,42,5,3037.8599999999997,37,Female,Florida,4,3,3,433,2,Loyal Customers
+196,126,4,1897.1299999999999,39,Male,Texas,3,2,2,322,1,Others
+197,97,8,5653.09,24,Female,Florida,3,5,5,355,0,Loyal Customers
+198,528,3,2422.81,36,Female,Texas,1,1,2,112,3,At Risk
+199,173,4,2175.8599999999997,35,Female,New York,2,2,2,222,1,At Risk
+200,46,3,1343.07,21,Male,California,4,1,1,411,1,Potential Loyalists
+201,51,8,5531.84,39,Male,Illinois,4,5,5,455,0,Champions
+202,87,2,2492.86,41,Male,New York,3,1,2,312,1,Others
+203,205,2,1370.52,47,Female,Florida,2,1,1,211,1,At Risk
+204,130,11,4480.14,47,Female,Illinois,3,5,4,354,0,Loyal Customers
+205,44,8,6247.25,18,Male,California,4,5,5,455,0,Champions
+206,31,4,1459.44,23,Female,California,5,2,1,521,1,Potential Loyalists
+207,49,7,4062.12,41,Male,Texas,4,4,4,444,2,Champions
+208,44,6,2347.9,41,Male,Illinois,4,4,2,442,2,Loyal Customers
+209,26,6,4382.46,41,Female,Texas,5,4,4,544,2,Champions
+210,6,5,3766.5099999999998,80,Female,New York,5,3,4,534,2,Loyal Customers
+211,46,11,7844.85,41,Female,Illinois,4,5,5,455,0,Champions
+212,32,6,2477.25,48,Female,New York,5,4,2,542,2,Loyal Customers
+213,160,4,2458.29,46,Male,Texas,2,2,2,222,1,At Risk
+214,33,7,2128.75,42,Male,Illinois,5,4,2,542,2,Loyal Customers
+215,220,6,4105.54,31,Male,Texas,2,4,4,244,2,At Risk
+216,179,7,5500.5,44,Male,Illinois,2,4,5,245,0,At Risk
+217,29,10,5750.84,25,Male,Texas,5,5,5,555,0,Champions
+218,46,5,4113.69,32,Female,California,4,3,4,434,2,Loyal Customers
+219,72,4,4499.27,29,Male,Texas,4,2,4,424,2,Potential Loyalists
+220,73,1,1450.08,35,Male,California,4,1,1,411,1,Potential Loyalists
+221,34,4,865.51,62,Male,Texas,5,2,1,521,1,Potential Loyalists
+222,47,4,2746.62,18,Female,Illinois,4,2,3,423,2,Potential Loyalists
+223,495,2,1843.1699999999998,43,Female,Illinois,1,1,2,112,3,At Risk
+224,100,4,2040.8399999999997,18,Female,Illinois,3,2,2,322,1,Others
+225,480,4,1616.4099999999999,29,Female,Florida,1,2,1,121,3,At Risk
+226,13,9,4216.08,48,Male,New York,5,5,4,554,0,Champions
+227,183,5,1909.6000000000001,35,Male,Illinois,2,3,2,232,1,At Risk
+228,60,6,3418.2799999999997,22,Female,California,4,4,3,443,2,Loyal Customers
+229,169,2,908.54,26,Female,Illinois,2,1,1,211,1,At Risk
+230,147,8,4204.75,43,Male,Florida,2,5,4,254,0,At Risk
+231,138,4,2870.16,26,Male,California,3,2,3,323,1,Others
+232,1,7,4654.21,37,Female,Florida,5,4,4,544,0,Champions
+233,5,9,5737.139999999999,35,Female,California,5,5,5,555,0,Champions
+234,78,9,4489.66,27,Female,Texas,4,5,4,454,0,Champions
+235,120,6,3770.0299999999997,60,Female,New York,3,4,4,344,2,Loyal Customers
+236,46,4,2955.4700000000003,42,Male,New York,4,2,3,423,2,Potential Loyalists
+237,112,7,3557.5699999999997,18,Male,Florida,3,4,4,344,2,Loyal Customers
+238,52,3,2934.62,37,Male,New York,4,1,3,413,1,Potential Loyalists
+239,78,4,3902.97,27,Female,Florida,4,2,4,424,2,Potential Loyalists
+240,15,3,2511.35,45,Female,Florida,5,1,2,512,1,Potential Loyalists
+241,215,2,2425.72,25,Male,Florida,2,1,2,212,1,At Risk
+242,27,6,2874.48,33,Male,New York,5,4,3,543,2,Loyal Customers
+243,130,4,2378.38,41,Male,Florida,3,2,2,322,1,Others
+244,151,5,2296.62,45,Male,New York,2,3,2,232,2,At Risk
+245,50,7,4830.85,20,Female,Florida,4,4,5,445,0,Champions
+246,68,11,5402.25,30,Male,Illinois,4,5,5,455,0,Champions
+247,82,6,3931.31,29,Male,Florida,3,4,4,344,2,Loyal Customers
+248,150,5,2118.09,27,Male,California,2,3,2,232,1,At Risk
+249,75,5,3553.92,56,Male,Florida,4,3,4,434,2,Loyal Customers
+250,258,5,3413.62,39,Male,Texas,1,3,3,133,2,At Risk
+251,45,5,3542.6,19,Male,Florida,4,3,4,434,2,Loyal Customers
+252,35,6,4243.259999999999,46,Male,California,5,4,4,544,2,Champions
+253,321,3,1282.73,60,Female,California,1,1,1,111,3,At Risk
+254,555,3,1080.73,47,Female,New York,1,1,1,111,3,At Risk
+255,39,7,5450.62,18,Female,Illinois,4,4,5,445,0,Champions
+256,99,4,1916.1,29,Female,Florida,3,2,2,322,1,Others
+257,166,3,2879.87,50,Male,New York,2,1,3,213,1,At Risk
+258,88,5,3400.79,26,Female,Illinois,3,3,3,333,2,Loyal Customers
+259,9,7,3203.93,40,Female,Florida,5,4,3,543,2,Loyal Customers
+260,127,6,4877.16,44,Male,Texas,3,4,5,345,2,Loyal Customers
+261,44,3,2107.76,23,Male,Florida,4,1,2,412,1,Potential Loyalists
+262,482,4,3078.46,34,Female,California,1,2,3,123,3,At Risk
+263,309,2,1819.16,18,Female,California,1,1,2,112,3,At Risk
+264,7,6,3129.35,22,Male,Texas,5,4,3,543,2,Loyal Customers
+265,576,3,729.3199999999999,31,Female,New York,1,1,1,111,3,At Risk
+266,109,7,3156.5,20,Male,Illinois,3,4,3,343,2,Loyal Customers
+267,222,4,2622.95,54,Male,Florida,2,2,3,223,1,At Risk
+268,128,8,5556.66,18,Male,California,3,5,5,355,0,Loyal Customers
+269,98,6,5087.21,29,Male,New York,3,4,5,345,2,Loyal Customers
+270,95,5,2329.52,36,Female,Texas,3,3,2,332,2,Loyal Customers
+271,37,7,5809.6900000000005,52,Male,California,4,4,5,445,0,Champions
+272,9,6,3739.91,18,Male,Texas,5,4,4,544,2,Champions
+273,38,8,5746.82,48,Female,Florida,4,5,5,455,0,Champions
+274,228,2,300.87,35,Male,Illinois,2,1,1,211,1,At Risk
+275,5,5,4382.39,23,Female,California,5,3,4,534,2,Loyal Customers
+276,96,7,4120.87,40,Female,California,3,4,4,344,2,Loyal Customers
+277,198,9,5049.99,37,Female,Florida,2,5,5,255,0,At Risk
+278,112,10,4721.72,27,Male,New York,3,5,5,355,0,Loyal Customers
+279,95,4,2277.05,35,Female,Illinois,3,2,2,322,1,Others
+280,465,3,2830.05,30,Female,California,1,1,3,113,3,At Risk
+281,201,4,1284.21,36,Male,Illinois,2,2,1,221,1,At Risk
+282,99,4,2221.75,42,Female,California,3,2,2,322,1,Others
+283,66,8,5788.5199999999995,54,Female,Illinois,4,5,5,455,0,Champions
+284,40,3,1836.94,20,Female,Texas,4,1,2,412,1,Potential Loyalists
+285,45,5,889.27,60,Female,California,4,3,1,431,1,Loyal Customers
+286,301,1,718.78,18,Female,Illinois,1,1,1,111,3,At Risk
+287,249,5,5950.34,33,Male,New York,1,3,5,135,2,At Risk
+288,31,5,3277.11,42,Female,Texas,5,3,3,533,2,Loyal Customers
+289,22,6,4747.58,38,Female,Texas,5,4,5,545,2,Champions
+290,20,6,3352.7,27,Male,New York,5,4,3,543,2,Loyal Customers
+291,75,3,3457.9900000000002,32,Male,Illinois,4,1,3,413,1,Potential Loyalists
+292,307,2,1108.28,29,Male,Florida,1,1,1,111,3,At Risk
+293,92,5,4515.34,27,Female,New York,3,3,4,334,2,Loyal Customers
+294,54,10,5494.12,45,Male,Illinois,4,5,5,455,0,Champions
+295,47,4,1257.99,39,Female,New York,4,2,1,421,1,Potential Loyalists
+296,25,4,2319.08,26,Female,New York,5,2,2,522,1,Potential Loyalists
+297,130,7,4706.11,45,Male,California,3,4,5,345,0,Loyal Customers
+298,204,3,3720.68,38,Male,Illinois,2,1,4,214,1,At Risk
+299,170,5,3568.9,44,Female,Florida,2,3,4,234,2,At Risk
+300,83,4,2414.0,42,Male,California,3,2,2,322,1,Others
+301,278,2,2565.69,25,Female,New York,1,1,3,113,3,At Risk
+302,310,5,3764.0,28,Male,New York,1,3,4,134,2,At Risk
+303,509,3,2601.97,43,Male,New York,1,1,3,113,3,At Risk
+304,229,5,4681.6900000000005,42,Male,Illinois,2,3,4,234,2,At Risk
+305,97,5,2287.75,34,Female,Illinois,3,3,2,332,2,Loyal Customers
+306,310,5,4423.73,36,Male,California,1,3,4,134,2,At Risk
+307,291,4,2653.27,50,Female,Florida,1,2,3,123,3,At Risk
+308,100,8,4102.54,27,Female,California,3,5,4,354,0,Loyal Customers
+309,142,5,3452.9300000000003,41,Female,Texas,2,3,3,233,2,At Risk
+310,135,3,786.4300000000001,32,Female,New York,3,1,1,311,1,Others
+311,78,6,3023.75,32,Male,New York,4,4,3,443,2,Loyal Customers
+312,187,4,2382.7,48,Female,New York,2,2,2,222,1,At Risk
+313,69,3,1156.53,44,Female,California,4,1,1,411,1,Potential Loyalists
+314,92,5,3884.9300000000003,44,Male,California,3,3,4,334,2,Loyal Customers
+315,21,3,1674.3,50,Female,New York,5,1,2,512,1,Potential Loyalists
+316,15,2,1241.3,35,Male,California,5,1,1,511,1,Potential Loyalists
+317,69,6,1570.6799999999998,43,Female,Illinois,4,4,1,441,2,Loyal Customers
+318,45,10,5674.21,31,Male,Illinois,4,5,5,455,0,Champions
+319,162,3,655.25,38,Female,California,2,1,1,211,1,At Risk
+320,255,6,2767.83,33,Male,New York,1,4,3,143,2,At Risk
+321,418,4,2189.64,36,Female,California,1,2,2,122,3,At Risk
+322,453,1,68.8,42,Female,California,1,1,1,111,3,At Risk
+323,338,2,1715.28,25,Male,California,1,1,2,112,3,At Risk
+324,35,6,3291.56,60,Male,Texas,5,4,3,543,2,Loyal Customers
+325,147,5,2718.09,22,Male,Illinois,2,3,3,233,2,At Risk
+326,158,4,2744.71,20,Male,Florida,2,2,3,223,1,At Risk
+327,197,4,1286.85,48,Female,Florida,2,2,1,221,1,At Risk
+328,2,3,2874.56,44,Female,Texas,5,1,3,513,1,Potential Loyalists
+329,164,6,4286.6,42,Male,California,2,4,4,244,2,At Risk
+330,340,4,1661.04,42,Female,Texas,1,2,2,122,3,At Risk
+331,24,7,2988.87,34,Male,Texas,5,4,3,543,2,Loyal Customers
+332,146,4,2102.92,24,Male,New York,2,2,2,222,1,At Risk
+333,63,7,5174.83,35,Female,Illinois,4,4,5,445,0,Champions
+334,233,6,2389.85,26,Female,Florida,2,4,2,242,2,At Risk
+335,22,4,2382.34,46,Female,California,5,2,2,522,1,Potential Loyalists
+336,206,2,1451.3600000000001,33,Female,Florida,2,1,1,211,1,At Risk
+337,119,4,3260.29,25,Female,Florida,3,2,3,323,2,Others
+338,120,4,2592.48,31,Female,Illinois,3,2,3,323,1,Others
+339,239,5,2503.05,39,Female,Florida,1,3,2,132,2,At Risk
+340,109,6,3791.7200000000003,28,Male,Florida,3,4,4,344,2,Loyal Customers
+341,364,1,455.52,25,Male,Texas,1,1,1,111,3,At Risk
+342,57,6,4780.7300000000005,37,Male,Illinois,4,4,5,445,2,Champions
+343,191,1,856.36,37,Male,New York,2,1,1,211,1,At Risk
+344,331,5,2400.9399999999996,28,Male,California,1,3,2,132,3,At Risk
+345,6,3,2496.51,29,Female,Florida,5,1,2,512,1,Potential Loyalists
+346,71,3,1511.9699999999998,37,Male,California,4,1,1,411,1,Potential Loyalists
+347,116,2,1859.58,18,Male,New York,3,1,2,312,1,Others
+348,64,4,3168.84,18,Male,California,4,2,3,423,2,Potential Loyalists
+349,211,3,2206.4700000000003,26,Male,New York,2,1,2,212,1,At Risk
+350,45,3,832.3,32,Male,Texas,4,1,1,411,1,Potential Loyalists
+351,75,4,2606.4,38,Male,Florida,4,2,3,423,1,Potential Loyalists
+352,109,2,267.6,52,Male,New York,3,1,1,311,1,Others
+353,133,4,1974.11,45,Female,California,3,2,2,322,1,Others
+354,628,1,1368.52,33,Female,Florida,1,1,1,111,3,At Risk
+355,21,3,1416.44,34,Male,Texas,5,1,1,511,1,Potential Loyalists
+356,110,2,1528.47,22,Female,Florida,3,1,1,311,1,Others
+357,256,3,3739.46,34,Female,New York,1,1,4,114,1,At Risk
+358,295,1,184.89,31,Female,Texas,1,1,1,111,3,At Risk
+359,215,3,1437.27,38,Female,California,2,1,1,211,1,At Risk
+360,25,3,2396.59,25,Male,Texas,5,1,2,512,1,Potential Loyalists
+361,38,8,4264.38,41,Female,Texas,4,5,4,454,0,Champions
+362,293,4,4948.65,53,Female,Illinois,1,2,5,125,2,At Risk
+363,351,4,4134.88,33,Female,Texas,1,2,4,124,3,At Risk
+364,13,5,3973.74,39,Male,Texas,5,3,4,534,2,Loyal Customers
+365,295,7,4913.05,43,Male,Florida,1,4,5,145,0,At Risk
+366,218,7,5082.29,30,Male,California,2,4,5,245,0,At Risk
+367,476,3,1178.78,37,Male,Florida,1,1,1,111,3,At Risk
+368,145,10,4701.44,35,Male,Florida,2,5,5,255,0,At Risk
+369,37,2,699.8399999999999,36,Male,New York,4,1,1,411,1,Potential Loyalists
+370,239,3,3789.5,25,Male,Florida,1,1,4,114,1,At Risk
+371,132,6,4585.22,35,Female,Illinois,3,4,4,344,2,Loyal Customers
+372,120,9,6339.9,40,Female,Illinois,3,5,5,355,0,Loyal Customers
+373,200,5,3106.6499999999996,52,Female,New York,2,3,3,233,2,At Risk
+374,3,7,4409.4800000000005,46,Male,California,5,4,4,544,0,Champions
+375,33,8,3942.08,60,Male,California,5,5,4,554,0,Champions
+376,181,3,1308.6200000000001,25,Male,Florida,2,1,1,211,1,At Risk
+377,89,5,4779.07,45,Male,Florida,3,3,5,335,2,Loyal Customers
+378,9,6,3459.05,37,Male,Florida,5,4,3,543,2,Loyal Customers
+379,18,6,4148.93,61,Female,California,5,4,4,544,2,Champions
+380,73,7,4148.34,25,Female,Texas,4,4,4,444,2,Champions
+381,62,6,1800.04,24,Male,Illinois,4,4,2,442,2,Loyal Customers
+382,428,3,1062.96,27,Male,Texas,1,1,1,111,3,At Risk
+383,162,6,4355.38,18,Male,Texas,2,4,4,244,2,At Risk
+384,335,5,2874.04,28,Male,California,1,3,3,133,3,At Risk
+385,390,5,2964.18,25,Female,Texas,1,3,3,133,3,At Risk
+386,16,4,2068.59,36,Male,New York,5,2,2,522,1,Potential Loyalists
+387,128,6,1859.8600000000001,39,Male,Florida,3,4,2,342,2,Loyal Customers
+388,5,5,2010.08,57,Male,New York,5,3,2,532,2,Loyal Customers
+389,30,6,7135.37,46,Male,Illinois,5,4,5,545,0,Champions
+390,117,10,6302.79,28,Female,Florida,3,5,5,355,0,Loyal Customers
+391,43,1,307.8,24,Male,Texas,4,1,1,411,1,Potential Loyalists
+392,43,5,2216.58,40,Male,Illinois,4,3,2,432,2,Loyal Customers
+393,166,8,2994.9300000000003,19,Female,Florida,2,5,3,253,2,At Risk
+394,119,6,3207.8399999999997,56,Female,Texas,3,4,3,343,2,Loyal Customers
+395,38,2,513.27,49,Female,New York,4,1,1,411,1,Potential Loyalists
+396,60,4,2877.27,29,Male,Florida,4,2,3,423,2,Potential Loyalists
+397,20,7,2577.74,18,Male,Texas,5,4,3,543,2,Loyal Customers
+398,37,7,4617.27,51,Female,New York,4,4,4,444,0,Champions
+399,147,4,2374.95,33,Female,Illinois,2,2,2,222,1,At Risk
+400,70,5,4629.65,49,Female,Illinois,4,3,4,434,2,Loyal Customers
+401,120,7,5479.57,18,Female,Illinois,3,4,5,345,0,Loyal Customers
+402,49,4,2675.5699999999997,27,Female,Illinois,4,2,3,423,1,Potential Loyalists
+403,55,3,1714.08,35,Female,California,4,1,2,412,1,Potential Loyalists
+404,82,3,2118.92,35,Male,Florida,3,1,2,312,1,Others
+405,200,7,2265.5699999999997,29,Male,Florida,2,4,2,242,2,At Risk
+406,142,5,1738.21,42,Male,California,2,3,2,232,1,At Risk
+407,114,6,2946.3,22,Female,Texas,3,4,3,343,2,Loyal Customers
+408,109,2,538.34,33,Female,Texas,3,1,1,311,1,Others
+409,63,5,2530.66,36,Female,Illinois,4,3,2,432,2,Loyal Customers
+410,124,3,1135.46,41,Female,New York,3,1,1,311,1,Others
+411,91,7,4541.549999999999,43,Female,Texas,3,4,4,344,0,Loyal Customers
+412,11,6,3913.49,21,Female,New York,5,4,4,544,2,Champions
+413,129,8,5233.69,18,Male,Florida,3,5,5,355,0,Loyal Customers
+414,496,2,2128.22,50,Male,New York,1,1,2,112,3,At Risk
+415,23,8,3954.06,38,Female,Florida,5,5,4,554,0,Champions
+416,97,5,3224.02,26,Male,California,3,3,3,333,2,Loyal Customers
+417,103,4,1236.95,53,Female,California,3,2,1,321,1,Others
+418,222,3,1390.51,36,Male,Illinois,2,1,1,211,1,At Risk
+419,146,8,4650.71,49,Female,Texas,2,5,4,254,0,At Risk
+420,1,7,5168.0599999999995,35,Female,Illinois,5,4,5,545,0,Champions
+421,401,1,446.21,59,Male,Florida,1,1,1,111,3,At Risk
+422,186,4,2867.98,56,Male,Illinois,2,2,3,223,1,At Risk
+423,9,5,2968.45,32,Female,New York,5,3,3,533,2,Loyal Customers
+424,115,4,3666.5,46,Female,Florida,3,2,4,324,2,Others
+425,117,4,1173.8700000000001,42,Male,California,3,2,1,321,1,Others
+426,28,5,3477.73,51,Male,Texas,5,3,3,533,2,Loyal Customers
+427,197,8,5627.62,23,Female,Florida,2,5,5,255,0,At Risk
+428,101,9,4012.5,43,Male,Florida,3,5,4,354,0,Loyal Customers
+429,191,4,1528.3000000000002,47,Female,New York,2,2,1,221,1,At Risk
+430,327,2,1152.67,18,Female,Texas,1,1,1,111,3,At Risk
+431,242,9,6266.66,20,Female,California,1,5,5,155,0,At Risk
+432,12,2,620.89,18,Female,Florida,5,1,1,511,1,Potential Loyalists
+433,36,7,4572.67,31,Male,Florida,4,4,4,444,0,Champions
+434,61,5,1969.94,43,Male,New York,4,3,2,432,2,Loyal Customers
+435,248,2,378.58,53,Male,Illinois,1,1,1,111,1,At Risk
+436,80,3,848.2,35,Male,California,4,1,1,411,1,Potential Loyalists
+437,25,5,1846.69,54,Male,Texas,5,3,2,532,2,Loyal Customers
+438,266,3,2279.8599999999997,18,Male,Florida,1,1,2,112,1,At Risk
+439,32,8,5011.49,18,Male,Florida,5,5,5,555,0,Champions
+440,212,3,1800.6,34,Female,California,2,1,2,212,1,At Risk
+441,43,7,4464.65,39,Male,Illinois,4,4,4,444,0,Champions
+442,32,5,4710.77,34,Male,Florida,5,3,5,535,2,Loyal Customers
+443,164,5,6504.610000000001,18,Female,California,2,3,5,235,0,At Risk
+444,157,5,3249.61,33,Male,New York,2,3,3,233,2,At Risk
+445,23,7,5494.07,19,Male,Illinois,5,4,5,545,0,Champions
+446,17,7,4633.26,43,Female,Texas,5,4,4,544,0,Champions
+447,16,3,1327.01,39,Male,Florida,5,1,1,511,1,Potential Loyalists
+448,33,1,193.92,23,Male,California,5,1,1,511,1,Potential Loyalists
+449,232,3,982.41,28,Male,New York,2,1,1,211,1,At Risk
+450,132,6,4855.13,22,Female,Texas,3,4,5,345,2,Loyal Customers
+451,558,3,1023.63,34,Male,California,1,1,1,111,3,At Risk
+452,257,4,2256.7400000000002,46,Male,California,1,2,2,122,1,At Risk
+453,63,6,2629.23,23,Female,Texas,4,4,3,443,2,Loyal Customers
+454,156,4,3114.95,41,Male,New York,2,2,3,223,2,At Risk
+455,418,1,976.89,28,Female,New York,1,1,1,111,3,At Risk
+456,226,6,5323.35,25,Female,Illinois,2,4,5,245,0,At Risk
+457,14,5,4302.63,33,Male,Florida,5,3,4,534,2,Loyal Customers
+458,667,1,642.27,22,Female,Texas,1,1,1,111,3,At Risk
+459,164,2,1362.01,28,Female,Texas,2,1,1,211,1,At Risk
+460,11,6,3754.25,20,Male,Texas,5,4,4,544,2,Champions
+461,12,8,4190.91,58,Female,New York,5,5,4,554,0,Champions
+462,76,4,3165.72,35,Female,Florida,4,2,3,423,2,Potential Loyalists
+463,177,8,7165.02,26,Male,Illinois,2,5,5,255,0,At Risk
+464,311,3,2458.72,37,Male,California,1,1,2,112,3,At Risk
+465,97,5,1951.32,33,Male,California,3,3,2,332,1,Loyal Customers
+466,15,5,2130.24,32,Female,Texas,5,3,2,532,2,Loyal Customers
+467,46,5,2698.3,42,Male,Florida,4,3,3,433,2,Loyal Customers
+468,42,9,3654.4300000000003,44,Female,New York,4,5,4,454,0,Champions
+469,184,4,4106.27,28,Female,Florida,2,2,4,224,2,At Risk
+470,237,3,2867.5,28,Female,Florida,1,1,3,113,1,At Risk
+471,317,3,1473.1200000000001,31,Female,New York,1,1,1,111,3,At Risk
+472,42,5,6185.45,18,Female,Texas,4,3,5,435,0,Loyal Customers
+473,131,3,2943.0,18,Female,Florida,3,1,3,313,1,Others
+474,140,11,8303.7,51,Female,California,3,5,5,355,0,Loyal Customers
+475,602,3,1983.4,54,Male,New York,1,1,2,112,3,At Risk
+476,8,7,2916.25,32,Male,Illinois,5,4,3,543,2,Loyal Customers
+477,149,8,5457.34,41,Female,Texas,2,5,5,255,0,At Risk
+478,91,4,2670.41,38,Female,New York,3,2,3,323,1,Others
+479,32,2,1762.46,71,Male,Illinois,5,1,2,512,1,Potential Loyalists
+480,366,6,3880.5299999999997,48,Female,Illinois,1,4,4,144,2,At Risk
+481,6,8,4154.4,33,Male,Florida,5,5,4,554,0,Champions
+482,72,6,5060.6900000000005,23,Male,Florida,4,4,5,445,2,Champions
+483,229,4,4377.0,18,Male,Florida,2,2,4,224,2,At Risk
+484,290,7,3770.2400000000002,37,Female,New York,1,4,4,144,2,At Risk
+485,15,4,2988.65,25,Female,New York,5,2,3,523,2,Potential Loyalists
+486,499,1,1368.52,18,Male,Texas,1,1,1,111,3,At Risk
+487,165,4,1177.4099999999999,27,Male,Florida,2,2,1,221,1,At Risk
+488,26,3,1731.08,22,Male,Illinois,5,1,2,512,1,Potential Loyalists
+489,61,3,2286.67,55,Male,California,4,1,2,412,1,Potential Loyalists
+490,186,5,2850.55,45,Male,Texas,2,3,3,233,2,At Risk
+491,56,3,880.9399999999999,34,Female,New York,4,1,1,411,1,Potential Loyalists
+492,9,6,2626.0,52,Male,Texas,5,4,3,543,2,Loyal Customers
+493,132,9,5023.58,35,Female,Texas,3,5,5,355,0,Loyal Customers
+494,264,3,1655.97,24,Male,Texas,1,1,2,112,1,At Risk
+495,188,4,3289.56,53,Female,Texas,2,2,3,223,2,At Risk
+496,26,9,6876.88,41,Female,California,5,5,5,555,0,Champions
+497,30,5,3236.24,22,Female,Florida,5,3,3,533,2,Loyal Customers
+498,26,2,1678.6,32,Female,Illinois,5,1,2,512,1,Potential Loyalists
+499,23,5,2822.38,24,Female,Texas,5,3,3,533,2,Loyal Customers
+500,182,6,2648.3599999999997,18,Female,Texas,2,4,3,243,2,At Risk
+501,196,4,3785.6499999999996,46,Male,Texas,2,2,4,224,2,At Risk
+502,27,9,6825.48,57,Female,Florida,5,5,5,555,0,Champions
+503,15,10,8591.33,18,Male,New York,5,5,5,555,0,Champions
+504,10,3,2428.91,41,Female,New York,5,1,2,512,1,Potential Loyalists
+505,394,6,5095.99,27,Female,California,1,4,5,145,2,At Risk
+506,51,1,1427.64,29,Male,New York,4,1,1,411,1,Potential Loyalists
+507,464,2,1373.19,27,Female,Texas,1,1,1,111,3,At Risk
+508,17,8,4999.36,24,Male,Texas,5,5,5,555,0,Champions
+509,366,4,1762.6499999999999,35,Male,Texas,1,2,2,122,3,At Risk
+510,125,3,1395.96,25,Male,California,3,2,1,321,1,Others
+511,562,3,1194.56,38,Male,Texas,1,2,1,121,3,At Risk
+512,39,3,2642.63,34,Female,New York,4,2,3,423,1,Potential Loyalists
+513,8,5,3569.41,32,Female,Florida,5,3,4,534,2,Loyal Customers
+514,89,7,6375.5,24,Male,Florida,3,5,5,355,0,Loyal Customers
+515,170,2,571.3199999999999,28,Female,Illinois,2,1,1,211,1,At Risk
+516,110,8,4983.06,44,Female,New York,3,5,5,355,0,Loyal Customers
+517,17,5,3019.11,41,Male,Texas,5,3,3,533,2,Loyal Customers
+518,90,9,9934.26,23,Female,Florida,3,5,5,355,0,Loyal Customers
+519,48,5,2431.98,36,Male,New York,4,3,2,432,2,Loyal Customers
+520,12,8,4431.67,44,Male,Florida,5,5,4,554,0,Champions
+521,55,5,3719.35,18,Female,Texas,4,3,4,434,2,Loyal Customers
+522,93,10,5949.55,41,Female,Florida,3,5,5,355,0,Loyal Customers
+523,516,3,2024.0,27,Female,Illinois,1,2,2,122,3,At Risk
+524,107,4,2369.62,41,Male,Illinois,3,2,2,322,1,Others
+525,110,8,4827.9,25,Male,Florida,3,5,5,355,0,Loyal Customers
+526,215,2,1472.8799999999999,18,Female,New York,2,1,1,211,1,At Risk
+527,10,10,5340.45,18,Female,New York,5,5,5,555,0,Champions
+528,162,7,2712.27,35,Female,New York,2,5,3,253,2,At Risk
+529,23,4,2051.62,38,Female,Florida,5,2,2,522,1,Potential Loyalists
+530,5,6,4920.76,24,Male,New York,5,4,5,545,2,Champions
+531,63,7,5927.16,42,Female,Texas,4,5,5,455,0,Champions
+532,226,4,1997.13,18,Male,Illinois,2,2,2,222,1,At Risk
+533,283,6,5500.780000000001,34,Male,Texas,1,4,5,145,0,At Risk
+534,101,6,5701.89,20,Female,New York,3,4,5,345,0,Loyal Customers
+535,107,6,3253.95,27,Female,Texas,3,4,3,343,2,Loyal Customers
+536,195,5,2433.07,35,Female,New York,2,3,2,232,2,At Risk
+537,119,5,5507.4,24,Male,Florida,3,3,5,335,2,Loyal Customers
+538,94,7,1397.07,30,Female,Texas,3,5,1,351,2,Loyal Customers
+539,43,3,2378.61,47,Female,Florida,4,2,2,422,1,Potential Loyalists
+540,52,8,3087.83,28,Male,Florida,4,5,3,453,2,Loyal Customers
+541,139,5,1839.47,45,Female,California,3,3,2,332,1,Loyal Customers
+542,131,11,8128.389999999999,21,Male,New York,3,5,5,355,0,Loyal Customers
+543,113,8,6130.16,41,Female,Illinois,3,5,5,355,0,Loyal Customers
+545,500,2,1620.8700000000001,18,Female,Illinois,1,1,1,111,3,At Risk
+546,50,5,3178.4700000000003,25,Female,New York,4,3,3,433,2,Loyal Customers
+547,214,7,5416.3,41,Male,Florida,2,5,5,255,0,At Risk
+548,241,6,1751.71,32,Male,Texas,1,4,2,142,2,At Risk
+549,163,5,3443.4300000000003,39,Female,Texas,2,3,3,233,2,At Risk
+550,190,5,4901.33,27,Male,California,2,3,5,235,2,At Risk
+551,431,3,1413.05,36,Male,Illinois,1,2,1,121,3,At Risk
+552,36,3,3282.0,33,Male,Illinois,4,2,3,423,1,Potential Loyalists
+553,41,7,4672.63,49,Male,Illinois,4,5,4,454,0,Champions
+554,55,4,3326.15,38,Female,Florida,4,2,3,423,2,Potential Loyalists
+555,84,2,1215.74,39,Female,Illinois,3,1,1,311,1,Others
+556,111,5,4068.16,30,Male,Texas,3,3,4,334,2,Loyal Customers
+557,83,8,4533.8,29,Male,Florida,3,5,4,354,0,Loyal Customers
+558,77,6,1693.79,29,Male,New York,4,4,2,442,2,Loyal Customers
+559,129,3,3214.3100000000004,39,Male,Illinois,3,2,3,323,1,Others
+560,31,6,2487.09,29,Female,Illinois,5,4,2,542,2,Loyal Customers
+561,42,10,8361.92,38,Female,New York,4,5,5,455,0,Champions
+562,137,3,1363.5,59,Male,Illinois,3,2,1,321,1,Others
+563,399,5,3413.52,45,Male,New York,1,3,3,133,3,At Risk
+564,590,5,2815.76,31,Male,Florida,1,3,3,133,3,At Risk
+565,84,5,3415.0200000000004,49,Female,Texas,3,3,3,333,2,Loyal Customers
+566,27,8,4956.33,30,Male,New York,5,5,5,555,0,Champions
+567,19,8,4288.99,18,Female,California,5,5,4,554,0,Champions
+568,161,6,2730.32,22,Male,New York,2,4,3,243,2,At Risk
+569,106,4,2831.41,18,Female,Illinois,3,2,3,323,1,Others
+570,18,8,5140.8,30,Male,Florida,5,5,5,555,0,Champions
+571,343,6,1713.58,35,Female,Florida,1,4,2,142,3,At Risk
+572,264,4,2648.42,55,Male,New York,1,2,3,123,1,At Risk
+573,152,8,4749.94,38,Male,Texas,2,5,5,255,0,At Risk
+574,13,5,3323.05,32,Male,California,5,3,3,533,2,Loyal Customers
+575,32,6,2424.63,44,Female,Florida,5,4,2,542,2,Loyal Customers
+576,412,2,2297.46,18,Male,Illinois,1,1,2,112,3,At Risk
+577,48,7,6702.849999999999,37,Female,Illinois,4,5,5,455,0,Champions
+578,172,4,2883.2700000000004,44,Female,Texas,2,2,3,223,1,At Risk
+579,14,8,5059.16,18,Male,Florida,5,5,5,555,0,Champions
+580,94,6,5738.04,48,Male,New York,3,4,5,345,0,Loyal Customers
+581,15,8,3884.8900000000003,39,Male,Illinois,5,5,4,554,0,Champions
+582,82,4,1505.72,30,Female,Texas,3,2,1,321,1,Others
+583,74,8,5674.82,42,Male,Florida,4,5,5,455,0,Champions
+584,125,6,5757.16,62,Female,Florida,3,4,5,345,0,Loyal Customers
+585,193,7,6315.93,37,Female,Florida,2,5,5,255,0,At Risk
+586,500,4,2393.06,37,Male,Florida,1,2,2,122,3,At Risk
+587,11,8,4785.6900000000005,29,Male,Florida,5,5,5,555,0,Champions
+588,162,3,3112.96,24,Male,Illinois,2,2,3,223,1,At Risk
+589,684,1,772.22,44,Male,Texas,1,1,1,111,3,At Risk
+590,47,7,6664.75,24,Male,Florida,4,5,5,455,0,Champions
+591,26,4,2122.19,35,Male,California,5,2,2,522,1,Potential Loyalists
+592,12,8,4380.7300000000005,29,Female,California,5,5,4,554,0,Champions
+593,273,7,2995.84,40,Female,Texas,1,5,3,153,2,At Risk
+594,469,2,2023.71,39,Female,New York,1,1,2,112,3,At Risk
+595,28,8,5166.95,47,Male,New York,5,5,5,555,0,Champions
+596,229,6,5342.68,28,Female,New York,2,4,5,245,0,At Risk
+597,246,6,2292.34,31,Female,California,1,4,2,142,2,At Risk
+598,41,7,3491.64,23,Female,New York,4,5,3,453,2,Loyal Customers
+599,20,5,2364.4,29,Female,Illinois,5,3,2,532,2,Loyal Customers
+600,202,2,888.16,39,Female,Florida,2,1,1,211,1,At Risk
+601,3,6,4257.0,44,Male,California,5,4,4,544,2,Champions
+602,184,6,4288.12,23,Male,Texas,2,4,4,244,2,At Risk
+603,218,4,1712.67,45,Female,Texas,2,2,2,222,1,At Risk
+604,342,4,851.73,51,Female,Florida,1,2,1,121,3,At Risk
+605,15,8,5301.49,39,Female,California,5,5,5,555,0,Champions
+606,43,12,7512.4400000000005,57,Male,New York,4,5,5,455,0,Champions
+607,223,4,1742.8600000000001,25,Male,New York,2,2,2,222,1,At Risk
+608,214,3,1653.13,20,Female,Illinois,2,2,1,221,1,At Risk
+609,74,5,2373.7799999999997,18,Male,Illinois,4,3,2,432,2,Loyal Customers
+610,133,5,2530.62,52,Male,New York,3,3,2,332,2,Loyal Customers
+611,248,2,2356.42,42,Female,Texas,1,1,2,112,1,At Risk
+612,47,5,3151.63,34,Male,Texas,4,3,3,433,2,Loyal Customers
+613,671,1,1317.2,38,Male,Illinois,1,1,1,111,3,At Risk
+614,6,6,1959.1,21,Female,Florida,5,4,2,542,2,Loyal Customers
+615,109,5,2901.92,64,Male,New York,3,3,3,333,2,Loyal Customers
+616,5,9,5964.27,36,Male,Illinois,5,5,5,555,0,Champions
+617,171,5,5376.91,36,Female,Illinois,2,3,5,235,2,At Risk
+618,113,6,3463.6800000000003,43,Male,New York,3,4,3,343,2,Loyal Customers
+619,80,6,2839.31,40,Male,New York,4,4,3,443,2,Loyal Customers
+620,270,5,3528.54,37,Female,Texas,1,3,4,134,2,At Risk
+621,342,4,1781.09,25,Female,Florida,1,2,2,122,3,At Risk
+622,67,9,6974.84,40,Female,Florida,4,5,5,455,0,Champions
+623,145,7,5190.820000000001,57,Male,New York,2,5,5,255,0,At Risk
+624,130,2,1571.1999999999998,51,Female,California,3,1,1,311,1,Others
+625,13,8,5787.64,54,Male,Illinois,5,5,5,555,0,Champions
+626,2,5,4377.52,28,Female,Illinois,5,3,4,534,2,Loyal Customers
+627,15,6,4261.53,23,Male,New York,5,4,4,544,2,Champions
+628,43,8,5151.47,33,Female,California,4,5,5,455,0,Champions
+629,120,5,3498.29,35,Female,Texas,3,3,3,333,2,Loyal Customers
+630,371,4,2215.08,48,Female,New York,1,2,2,122,3,At Risk
+631,124,2,967.93,18,Female,New York,3,1,1,311,1,Others
+632,194,4,2900.63,53,Male,Illinois,2,2,3,223,1,At Risk
+633,70,5,2709.55,33,Female,New York,4,3,3,433,2,Loyal Customers
+634,61,3,2262.54,29,Female,New York,4,2,2,422,1,Potential Loyalists
+635,482,4,3050.5299999999997,22,Male,New York,1,2,3,123,3,At Risk
+636,69,4,1783.96,18,Female,Illinois,4,2,2,422,1,Potential Loyalists
+637,33,3,1951.26,44,Male,Texas,5,2,2,522,1,Potential Loyalists
+638,262,5,4479.06,35,Female,Texas,1,3,4,134,2,At Risk
+639,40,5,1168.97,19,Female,New York,4,3,1,431,1,Loyal Customers
+640,157,3,1151.8600000000001,19,Female,Illinois,2,2,1,221,1,At Risk
+641,123,3,1635.8,30,Male,Texas,3,2,1,321,1,Others
+642,517,1,666.12,55,Female,Texas,1,1,1,111,3,At Risk
+643,318,3,2932.63,31,Female,Texas,1,2,3,123,3,At Risk
+644,252,2,100.83,18,Female,Illinois,1,1,1,111,1,At Risk
+645,395,2,1439.46,32,Male,Illinois,1,1,1,111,3,At Risk
+646,14,3,997.0400000000001,31,Male,New York,5,2,1,521,1,Potential Loyalists
+647,77,6,4988.65,18,Female,Florida,4,4,5,445,2,Champions
+648,73,4,1886.02,34,Male,Texas,4,2,2,422,1,Potential Loyalists
+649,171,12,5464.54,32,Female,Florida,2,5,5,255,0,At Risk
+650,42,7,4852.2,43,Female,Illinois,4,5,5,455,0,Champions
+651,71,3,1573.17,57,Female,Illinois,4,2,1,421,1,Potential Loyalists
+652,106,5,4021.62,48,Female,Illinois,3,3,4,334,2,Loyal Customers
+653,75,11,6345.34,31,Female,Florida,4,5,5,455,0,Champions
+654,93,5,3531.7200000000003,21,Female,Illinois,3,3,4,334,2,Loyal Customers
+655,335,2,1399.1399999999999,65,Female,New York,1,1,1,111,3,At Risk
+656,155,1,441.28,35,Male,Illinois,2,1,1,211,1,At Risk
+657,155,4,2424.52,35,Male,California,2,2,2,222,1,At Risk
+658,25,9,4481.1,34,Male,Florida,5,5,4,554,0,Champions
+659,268,4,1935.52,37,Male,California,1,2,2,122,1,At Risk
+660,184,3,1327.23,33,Male,Illinois,2,2,1,221,1,At Risk
+661,25,5,3751.37,28,Male,New York,5,3,4,534,2,Loyal Customers
+662,4,5,1941.73,28,Male,Texas,5,3,2,532,2,Loyal Customers
+663,1,11,9030.89,34,Female,Illinois,5,5,5,555,0,Champions
+664,222,7,4152.719999999999,28,Female,New York,2,5,4,254,2,At Risk
+665,212,6,4665.46,26,Female,Florida,2,4,4,244,2,At Risk
+666,125,5,2685.31,36,Female,California,3,3,3,333,2,Loyal Customers
+667,311,3,2085.1,31,Male,California,1,2,2,122,3,At Risk
+668,83,4,2536.81,53,Male,California,3,2,3,323,1,Others
+669,409,2,454.90999999999997,18,Female,Florida,1,1,1,111,3,At Risk
+670,312,6,4888.72,48,Female,New York,1,4,5,145,2,At Risk
+671,170,7,5060.97,49,Male,Florida,2,5,5,255,0,At Risk
+672,236,3,2619.24,18,Female,California,2,2,3,223,1,At Risk
+673,21,4,3768.65,30,Female,Illinois,5,2,4,524,2,Potential Loyalists
+674,493,3,900.74,30,Female,Texas,1,2,1,121,3,At Risk
+675,89,7,4122.3,18,Female,Florida,3,5,4,354,2,Loyal Customers
+676,39,6,5432.68,25,Male,Florida,4,4,5,445,0,Champions
+677,360,2,843.28,21,Female,New York,1,1,1,111,3,At Risk
+678,61,2,613.0699999999999,56,Female,New York,4,1,1,411,1,Potential Loyalists
+679,68,7,5170.32,46,Male,Florida,4,5,5,455,0,Champions
+680,126,5,1907.6399999999999,50,Male,California,3,3,2,332,1,Loyal Customers
+681,199,7,4230.97,43,Female,Texas,2,5,4,254,2,At Risk
+682,18,5,1128.6,21,Male,New York,5,3,1,531,1,Loyal Customers
+683,158,4,2966.62,28,Female,California,2,2,3,223,1,At Risk
+684,149,7,3998.7799999999997,40,Female,Illinois,2,5,4,254,2,At Risk
+685,46,4,2368.13,20,Male,New York,4,2,2,422,1,Potential Loyalists
+686,429,4,3531.79,43,Female,California,1,2,4,124,3,At Risk
+687,475,2,865.25,32,Female,California,1,1,1,111,3,At Risk
+688,100,5,4722.87,30,Female,Texas,3,3,5,335,2,Loyal Customers
+689,522,3,538.09,43,Female,Texas,1,2,1,121,3,At Risk
+690,224,3,3334.8,40,Male,Illinois,2,2,3,223,1,At Risk
+691,199,5,4705.81,30,Male,California,2,3,5,235,2,At Risk
+692,181,4,2460.8199999999997,48,Female,California,2,2,2,222,1,At Risk
+693,44,5,2705.95,22,Male,Texas,4,3,3,433,2,Loyal Customers
+694,53,6,3893.08,42,Female,New York,4,4,4,444,2,Champions
+695,261,3,2188.87,42,Female,New York,1,2,2,122,1,At Risk
+696,85,3,2005.19,31,Female,Florida,3,2,2,322,1,Others
+697,286,5,3172.12,38,Female,Texas,1,3,3,133,2,At Risk
+698,53,6,4164.54,19,Female,Florida,4,4,4,444,2,Champions
+699,208,5,3316.9,46,Male,Texas,2,3,3,233,2,At Risk
+700,89,4,3072.54,32,Female,Illinois,3,2,3,323,2,Others
+701,272,6,5581.62,28,Male,California,1,4,5,145,0,At Risk
+702,4,6,3263.16,47,Male,Illinois,5,4,3,543,2,Loyal Customers
+703,416,4,2642.29,26,Female,Texas,1,3,3,133,3,At Risk
+704,408,2,520.14,18,Female,California,1,1,1,111,3,At Risk
+706,15,7,3978.9100000000003,42,Female,New York,5,5,4,554,2,Champions
+707,13,6,2194.65,19,Female,Florida,5,4,2,542,2,Loyal Customers
+708,460,5,2154.52,56,Male,Texas,1,3,2,132,3,At Risk
+709,70,8,5420.59,18,Female,Texas,4,5,5,455,0,Champions
+710,326,7,3743.6499999999996,55,Female,New York,1,5,4,154,2,At Risk
+711,57,6,3520.71,37,Male,Illinois,4,4,4,444,2,Champions
+712,269,9,3134.63,33,Male,California,1,5,3,153,2,At Risk
+713,34,3,2780.84,28,Female,Illinois,5,2,3,523,1,Potential Loyalists
+714,43,6,3638.58,39,Male,Illinois,4,4,4,444,2,Champions
+715,158,7,5172.01,34,Female,New York,2,5,5,255,0,At Risk
+716,325,2,1106.68,48,Male,New York,1,1,1,111,3,At Risk
+717,65,9,5932.900000000001,36,Male,New York,4,5,5,455,0,Champions
+718,14,12,7603.04,36,Female,Florida,5,5,5,555,0,Champions
+719,327,6,3322.3599999999997,30,Male,Illinois,1,4,3,143,2,At Risk
+720,185,6,4493.13,34,Male,Texas,2,4,4,244,2,At Risk
+721,383,3,1791.0,38,Male,California,1,2,2,122,3,At Risk
+722,35,10,8956.949999999999,18,Male,Florida,5,5,5,555,0,Champions
+723,86,5,3498.8199999999997,18,Male,Texas,3,3,3,333,2,Loyal Customers
+724,1,5,2379.38,43,Male,Illinois,5,3,2,532,2,Loyal Customers
+725,90,7,5029.219999999999,37,Female,New York,3,5,5,355,0,Loyal Customers
+726,197,3,1213.78,32,Female,Illinois,2,2,1,221,1,At Risk
+727,113,6,3859.91,35,Male,California,3,4,4,344,2,Loyal Customers
+728,282,3,2958.14,39,Female,Florida,1,2,3,123,1,At Risk
+729,45,3,1501.92,28,Female,Florida,4,2,1,421,1,Potential Loyalists
+730,199,5,1997.19,25,Female,California,2,3,2,232,1,At Risk
+731,1,5,2485.7,37,Male,Texas,5,3,2,532,2,Loyal Customers
+732,41,7,5468.33,23,Female,Texas,4,5,5,455,0,Champions
+733,105,6,2141.44,39,Male,Florida,3,4,2,342,2,Loyal Customers
+734,52,4,2802.28,18,Female,Florida,4,3,3,433,2,Loyal Customers
+735,30,6,3991.15,47,Male,New York,5,4,4,544,2,Champions
+736,499,2,1190.3799999999999,40,Male,Texas,1,1,1,111,3,At Risk
+737,268,4,1091.33,38,Female,California,1,3,1,131,1,At Risk
+738,53,3,3974.8,46,Female,Texas,4,2,4,424,2,Potential Loyalists
+739,11,7,3095.9900000000002,54,Male,New York,5,5,3,553,2,Loyal Customers
+740,119,3,1173.44,47,Female,Florida,3,2,1,321,1,Others
+741,190,2,485.04999999999995,18,Female,Florida,2,1,1,211,1,At Risk
+742,105,5,3060.94,19,Female,New York,3,3,3,333,2,Loyal Customers
+743,151,3,1164.4099999999999,27,Male,California,2,2,1,221,1,At Risk
+744,16,6,3767.75,35,Male,Florida,5,4,4,544,2,Champions
+745,223,4,1161.5900000000001,41,Female,Illinois,2,3,1,231,1,At Risk
+746,72,8,8230.85,26,Female,Florida,4,5,5,455,0,Champions
+747,193,3,1263.4999999999998,37,Female,Illinois,2,2,1,221,1,At Risk
+748,228,6,3781.4900000000002,25,Male,New York,2,4,4,244,2,At Risk
+749,106,6,3452.5,27,Male,New York,3,4,3,343,2,Loyal Customers
+750,237,3,1287.92,18,Female,Florida,1,2,1,121,1,At Risk
+751,85,2,1843.7400000000002,23,Female,Texas,3,1,2,312,1,Others
+752,70,3,1358.3400000000001,18,Female,Illinois,4,2,1,421,1,Potential Loyalists
+753,147,4,2095.69,23,Female,California,2,3,2,232,1,At Risk
+754,8,9,4699.77,47,Female,Florida,5,5,5,555,0,Champions
+755,158,3,2316.26,23,Female,California,2,2,2,222,1,At Risk
+756,11,6,6249.21,66,Male,Florida,5,4,5,545,0,Champions
+757,41,6,2537.71,40,Female,Texas,4,4,3,443,2,Loyal Customers
+758,111,6,2551.78,37,Male,Texas,3,4,3,343,2,Loyal Customers
+759,18,7,2498.02,24,Female,Texas,5,5,2,552,2,Loyal Customers
+760,232,2,551.64,43,Female,Texas,2,1,1,211,1,At Risk
+761,81,4,3042.41,28,Male,New York,3,3,3,333,2,Loyal Customers
+762,141,3,1893.56,36,Male,New York,2,2,2,222,1,At Risk
+763,132,3,2442.36,65,Male,Illinois,3,2,2,322,1,Others
+764,39,1,814.44,33,Male,California,4,1,1,411,1,Potential Loyalists
+765,190,4,2644.13,48,Female,Florida,2,3,3,233,1,At Risk
+766,2,5,2365.0699999999997,26,Male,Florida,5,3,2,532,2,Loyal Customers
+767,50,2,1918.98,34,Female,New York,4,1,2,412,1,Potential Loyalists
+768,119,5,2824.64,56,Male,Florida,3,3,3,333,2,Loyal Customers
+769,287,4,1550.63,27,Female,New York,1,3,1,131,3,At Risk
+770,21,4,1842.94,56,Female,Illinois,5,3,2,532,1,Loyal Customers
+771,233,5,3573.49,43,Female,California,2,3,4,234,2,At Risk
+772,608,1,1903.52,28,Female,Illinois,1,1,2,112,3,At Risk
+773,22,5,1190.59,42,Female,Texas,5,3,1,531,1,Loyal Customers
+774,109,3,2800.61,46,Female,Texas,3,2,3,323,1,Others
+775,39,7,3440.2799999999997,42,Male,Texas,4,5,3,453,2,Loyal Customers
+776,729,1,214.09,18,Female,Illinois,1,1,1,111,3,At Risk
+777,55,4,1849.04,26,Male,Florida,4,3,2,432,1,Loyal Customers
+778,66,5,4758.64,32,Male,California,4,3,5,435,2,Loyal Customers
+779,537,1,673.06,34,Female,Texas,1,1,1,111,3,At Risk
+780,58,6,4072.39,42,Male,Texas,4,4,4,444,2,Champions
+781,192,3,907.4100000000001,37,Female,Texas,2,2,1,221,1,At Risk
+782,139,4,3241.7400000000002,18,Male,California,3,3,3,333,2,Loyal Customers
+783,38,10,7501.16,39,Female,Texas,4,5,5,455,0,Champions
+784,27,8,5126.95,42,Male,California,5,5,5,555,0,Champions
+785,129,6,1678.01,41,Female,Texas,3,4,2,342,2,Loyal Customers
+786,222,6,1936.08,47,Female,Illinois,2,4,2,242,2,At Risk
+787,46,6,5537.62,45,Female,Illinois,4,4,5,445,0,Champions
+788,150,3,2183.5,40,Female,California,2,2,2,222,1,At Risk
+789,99,1,788.31,34,Male,Illinois,3,1,1,311,1,Others
+790,204,5,3887.8900000000003,18,Female,California,2,3,4,234,2,At Risk
+791,95,4,1440.26,40,Male,Illinois,3,3,1,331,1,Loyal Customers
+792,102,8,6744.8,37,Male,Illinois,3,5,5,355,0,Loyal Customers
+793,27,7,3269.19,38,Male,California,5,5,3,553,2,Loyal Customers
+794,85,11,9836.57,19,Female,Florida,3,5,5,355,0,Loyal Customers
+795,14,12,7117.45,22,Male,Illinois,5,5,5,555,0,Champions
+796,149,5,3220.22,47,Male,Texas,2,3,3,233,2,At Risk
+797,287,2,1901.5,34,Male,Florida,1,1,2,112,3,At Risk
+798,117,4,3859.62,43,Female,California,3,3,4,334,2,Loyal Customers
+799,44,5,2246.71,35,Female,Florida,4,3,2,432,2,Loyal Customers
+800,705,1,603.32,35,Male,New York,1,1,1,111,3,At Risk
+801,37,6,3304.48,46,Female,New York,4,4,3,443,2,Loyal Customers
+802,82,8,3801.31,28,Female,Illinois,3,5,4,354,0,Loyal Customers
+803,319,1,1651.48,36,Male,Illinois,1,1,1,111,3,At Risk
+804,517,1,246.52,29,Male,Texas,1,1,1,111,3,At Risk
+805,79,3,1621.8300000000002,29,Female,Florida,4,2,1,421,1,Potential Loyalists
+806,316,5,1956.61,31,Male,New York,1,3,2,132,3,At Risk
+807,27,5,4019.58,37,Female,Illinois,5,3,4,534,2,Loyal Customers
+808,178,5,1284.08,29,Female,Florida,2,3,1,231,1,At Risk
+809,139,3,3103.16,50,Female,Illinois,3,2,3,323,1,Others
+810,103,9,9030.35,24,Female,Illinois,3,5,5,355,0,Loyal Customers
+811,15,3,698.7,32,Female,New York,5,2,1,521,1,Potential Loyalists
+812,296,3,2209.21,29,Female,New York,1,2,2,122,3,At Risk
+813,205,5,2566.81,52,Male,Illinois,2,3,3,233,2,At Risk
+814,70,3,909.08,37,Male,California,4,2,1,421,1,Potential Loyalists
+815,26,7,5603.98,47,Female,Illinois,5,5,5,555,0,Champions
+816,84,5,2061.81,18,Female,Illinois,3,3,2,332,2,Loyal Customers
+817,78,6,6846.84,38,Female,Texas,4,4,5,445,0,Champions
+818,203,2,901.92,45,Male,Texas,2,1,1,211,1,At Risk
+819,158,8,4341.799999999999,35,Female,Texas,2,5,4,254,0,At Risk
+820,122,4,2556.44,47,Male,California,3,3,3,333,1,Loyal Customers
+821,34,10,4129.34,28,Female,California,5,5,4,554,0,Champions
+822,327,4,1781.1100000000001,51,Female,Illinois,1,3,2,132,3,At Risk
+823,31,5,2758.25,62,Male,Texas,5,3,3,533,2,Loyal Customers
+824,163,4,1547.2099999999998,30,Male,California,2,3,1,231,1,At Risk
+825,339,10,3966.33,29,Female,New York,1,5,4,154,0,At Risk
+826,57,3,1297.88,52,Female,Illinois,4,2,1,421,1,Potential Loyalists
+827,564,2,2855.28,53,Female,Florida,1,1,3,113,3,At Risk
+828,43,7,5992.33,28,Male,Illinois,4,5,5,455,0,Champions
+829,53,3,2942.35,29,Male,Florida,4,2,3,423,1,Potential Loyalists
+830,171,6,4326.94,31,Male,Texas,2,4,4,244,2,At Risk
+831,155,5,3714.24,18,Male,Florida,2,3,4,234,2,At Risk
+832,49,9,7498.82,23,Male,Texas,4,5,5,455,0,Champions
+833,71,5,3660.9599999999996,22,Male,New York,4,3,4,434,2,Loyal Customers
+834,119,5,2906.47,25,Female,Florida,3,3,3,333,2,Loyal Customers
+835,86,6,5426.72,34,Female,Illinois,3,4,5,345,0,Loyal Customers
+836,69,5,4545.25,37,Male,Texas,4,3,4,434,2,Loyal Customers
+837,61,9,8239.9,53,Female,Illinois,4,5,5,455,0,Champions
+838,67,8,4611.79,23,Female,California,4,5,4,454,0,Champions
+839,76,7,4110.65,46,Male,Texas,4,5,4,454,2,Champions
+840,91,3,1467.71,32,Female,Florida,3,2,1,321,1,Others
+841,236,3,4033.6400000000003,34,Male,Texas,2,2,4,224,1,At Risk
+842,66,4,1723.1100000000001,43,Male,Illinois,4,3,2,432,1,Loyal Customers
+843,29,7,4040.33,21,Female,New York,5,5,4,554,2,Champions
+844,14,6,2519.7000000000003,39,Male,Texas,5,4,2,542,2,Loyal Customers
+845,240,3,1041.8000000000002,36,Male,Florida,1,2,1,121,1,At Risk
+846,3,6,4216.5199999999995,40,Male,California,5,4,4,544,2,Champions
+847,151,8,5320.33,38,Male,New York,2,5,5,255,0,At Risk
+848,35,3,3232.55,64,Male,California,5,2,3,523,1,Potential Loyalists
+849,57,7,6349.43,27,Male,Texas,4,5,5,455,0,Champions
+850,89,5,3412.9900000000002,28,Male,Illinois,3,3,3,333,2,Loyal Customers
+851,435,3,2547.2000000000003,27,Male,Illinois,1,2,3,123,3,At Risk
+852,26,4,2402.67,28,Female,Florida,5,3,2,532,1,Loyal Customers
+853,110,6,4437.8099999999995,27,Female,Illinois,3,4,4,344,2,Loyal Customers
+854,55,6,5067.9400000000005,49,Female,New York,4,4,5,445,0,Champions
+855,47,8,4004.11,52,Male,Illinois,4,5,4,454,0,Champions
+856,209,5,2674.44,28,Male,Florida,2,3,3,233,2,At Risk
+857,82,5,3108.5,25,Female,Texas,3,3,3,333,2,Loyal Customers
+858,45,7,3254.35,40,Female,Texas,4,5,3,453,2,Loyal Customers
+859,35,8,5507.83,28,Female,Illinois,5,5,5,555,0,Champions
+860,276,3,2225.0,42,Male,California,1,2,2,122,1,At Risk
+861,118,9,4699.46,37,Female,Texas,3,5,5,355,0,Loyal Customers
+862,212,2,1720.56,18,Female,Illinois,2,1,2,212,1,At Risk
+863,222,5,4276.24,53,Male,Florida,2,3,4,234,2,At Risk
+864,240,7,5193.78,56,Female,Illinois,1,5,5,155,0,At Risk
+865,22,10,7727.14,27,Male,Texas,5,5,5,555,0,Champions
+866,379,3,3116.44,30,Male,Florida,1,2,3,123,3,At Risk
+867,151,4,1053.25,38,Male,Illinois,2,3,1,231,1,At Risk
+868,156,3,1674.98,39,Female,New York,2,2,2,222,1,At Risk
+869,121,7,4438.79,42,Female,Florida,3,5,4,354,0,Loyal Customers
+870,189,4,2693.3,59,Male,New York,2,3,3,233,1,At Risk
+871,9,4,4166.15,32,Female,California,5,3,4,534,2,Loyal Customers
+872,179,5,4362.47,25,Female,Florida,2,3,4,234,2,At Risk
+873,194,3,1232.37,18,Female,New York,2,2,1,221,1,At Risk
+874,84,9,6083.48,26,Female,Texas,3,5,5,355,0,Loyal Customers
+875,151,2,1131.81,34,Male,Texas,2,1,1,211,1,At Risk
+876,8,5,2326.7400000000002,56,Female,California,5,3,2,532,2,Loyal Customers
+877,127,5,2462.6400000000003,28,Male,Florida,3,3,2,332,2,Loyal Customers
+878,74,7,3878.08,37,Male,Florida,4,5,4,454,2,Champions
+879,32,3,3023.96,34,Female,Florida,5,2,3,523,1,Potential Loyalists
+880,4,7,7502.74,49,Male,California,5,5,5,555,0,Champions
+881,27,6,4750.63,65,Female,Florida,5,4,5,545,2,Champions
+882,92,5,2318.06,28,Female,Texas,3,3,2,332,2,Loyal Customers
+883,212,1,1303.88,29,Male,New York,2,1,1,211,1,At Risk
+884,171,10,6288.17,47,Male,Texas,2,5,5,255,0,At Risk
+885,67,9,5080.16,43,Male,Texas,4,5,5,455,0,Champions
+886,205,7,5325.29,57,Male,New York,2,5,5,255,0,At Risk
+887,183,3,1339.71,42,Female,Texas,2,2,1,221,1,At Risk
+888,58,6,3416.84,30,Female,California,4,4,3,443,2,Loyal Customers
+889,113,6,2528.0699999999997,42,Female,New York,3,4,2,342,2,Loyal Customers
+890,178,4,2255.8999999999996,48,Male,Texas,2,3,2,232,1,At Risk
+891,286,2,660.77,44,Male,Illinois,1,1,1,111,3,At Risk
+892,3,5,2468.31,41,Male,Texas,5,3,2,532,2,Loyal Customers
+893,125,8,7105.44,47,Female,California,3,5,5,355,0,Loyal Customers
+894,449,2,1599.44,49,Male,Florida,1,1,1,111,3,At Risk
+895,172,4,2040.27,51,Female,Texas,2,3,2,232,1,At Risk
+896,215,1,966.72,42,Male,Florida,2,1,1,211,1,At Risk
+897,203,7,5436.469999999999,32,Female,Illinois,2,5,5,255,0,At Risk
+898,111,7,2436.85,36,Female,Texas,3,5,2,352,2,Loyal Customers
+899,176,5,4704.69,49,Male,New York,2,3,5,235,2,At Risk
+900,124,2,2022.69,25,Male,Florida,3,1,2,312,1,Others
+901,386,3,1115.44,39,Female,Illinois,1,2,1,121,3,At Risk
+902,330,7,3105.62,30,Female,New York,1,5,3,153,2,At Risk
+903,126,4,2497.29,35,Male,New York,3,3,2,332,1,Loyal Customers
+904,177,6,5522.26,50,Male,New York,2,4,5,245,0,At Risk
+905,94,4,3673.91,37,Female,New York,3,3,4,334,2,Loyal Customers
+906,32,4,4222.8,35,Male,Texas,5,3,4,534,2,Loyal Customers
+907,27,7,5724.21,18,Female,Texas,5,5,5,555,0,Champions
+908,234,4,1664.8700000000001,43,Female,Texas,2,3,2,232,1,At Risk
+909,35,4,2869.82,42,Male,Illinois,5,3,3,533,2,Loyal Customers
+910,248,3,2603.49,60,Male,Illinois,1,2,3,123,1,At Risk
+911,216,3,2483.64,31,Male,Illinois,2,2,2,222,1,At Risk
+912,26,5,2408.9,37,Male,California,5,3,2,532,2,Loyal Customers
+913,46,7,4634.23,37,Male,Illinois,4,5,4,454,0,Champions
+914,37,5,4296.9,53,Female,Texas,4,4,4,444,2,Champions
+915,62,10,5425.23,33,Female,Texas,4,5,5,455,0,Champions
+916,176,8,3664.7000000000003,38,Male,California,2,5,4,254,2,At Risk
+917,161,5,4031.2400000000002,42,Male,California,2,4,4,244,2,At Risk
+918,260,2,2195.25,37,Male,Illinois,1,1,2,112,1,At Risk
+919,113,4,2632.4500000000003,29,Female,Florida,3,3,3,333,1,Loyal Customers
+920,30,8,5330.75,37,Male,California,5,5,5,555,0,Champions
+921,15,8,4542.57,47,Male,New York,5,5,4,554,0,Champions
+922,299,3,1997.28,22,Female,Texas,1,2,2,122,3,At Risk
+923,74,6,6954.35,36,Female,New York,4,4,5,445,0,Champions
+924,256,4,3815.91,26,Male,Texas,1,3,4,134,2,At Risk
+925,17,8,2923.55,49,Male,Texas,5,5,3,553,2,Loyal Customers
+926,15,7,5891.49,18,Male,California,5,5,5,555,0,Champions
+927,125,3,2536.11,28,Female,California,3,2,2,322,1,Others
+928,233,5,4777.91,39,Male,New York,2,4,5,245,2,At Risk
+929,3,8,5393.46,53,Male,Texas,5,5,5,555,0,Champions
+930,87,8,4831.21,34,Male,New York,3,5,5,355,0,Loyal Customers
+931,112,3,2738.81,28,Female,Florida,3,2,3,323,1,Others
+932,147,6,5334.23,57,Female,New York,2,4,5,245,0,At Risk
+933,232,3,2000.0900000000001,18,Male,Illinois,2,2,2,222,1,At Risk
+934,93,3,588.6500000000001,18,Male,New York,3,2,1,321,1,Others
+935,50,6,4944.7,40,Female,Illinois,4,4,5,445,2,Champions
+936,175,5,5405.24,28,Female,Illinois,2,4,5,245,2,At Risk
+937,22,5,3479.2799999999997,22,Female,Illinois,5,4,3,543,2,Loyal Customers
+938,307,4,2988.35,43,Female,Florida,1,3,3,133,3,At Risk
+939,131,5,3926.13,37,Female,New York,3,4,4,344,2,Loyal Customers
+940,129,10,7321.97,28,Female,New York,3,5,5,355,0,Loyal Customers
+941,351,3,421.53999999999996,19,Female,Florida,1,2,1,121,3,At Risk
+942,315,6,4232.28,45,Female,Texas,1,4,4,144,2,At Risk
+943,118,7,5603.09,42,Female,California,3,5,5,355,0,Loyal Customers
+944,171,9,5247.78,33,Male,New York,2,5,5,255,0,At Risk
+945,11,7,4035.31,57,Male,California,5,5,4,554,2,Champions
+946,6,4,1797.27,22,Male,Florida,5,3,2,532,1,Loyal Customers
+947,15,8,4437.54,18,Female,Texas,5,5,4,554,0,Champions
+948,56,7,6015.25,26,Male,Texas,4,5,5,455,0,Champions
+949,18,7,5193.83,34,Female,Texas,5,5,5,555,0,Champions
+950,29,11,5755.32,37,Female,Florida,5,5,5,555,0,Champions
+951,53,4,3040.55,32,Male,Illinois,4,3,3,433,2,Loyal Customers
+952,550,2,1565.89,39,Female,Illinois,1,1,1,111,3,At Risk
+953,67,6,1998.8600000000001,19,Male,California,4,4,2,442,2,Loyal Customers
+954,52,6,3913.87,52,Male,Illinois,4,4,4,444,2,Champions
+955,177,3,2112.4,34,Male,Illinois,2,2,2,222,1,At Risk
+956,158,8,4805.58,48,Female,Texas,2,5,5,255,0,At Risk
+957,272,2,1369.98,39,Male,Texas,1,1,1,111,3,At Risk
+958,267,4,3599.38,40,Female,California,1,3,4,134,2,At Risk
+959,116,4,3457.4,41,Male,New York,3,3,3,333,2,Loyal Customers
+960,610,2,859.6099999999999,40,Male,California,1,1,1,111,3,At Risk
+961,160,2,307.72,42,Male,California,2,1,1,211,1,At Risk
+962,227,5,2482.08,50,Female,Florida,2,4,2,242,2,At Risk
+963,135,6,3033.45,37,Female,Florida,3,4,3,343,2,Loyal Customers
+964,82,7,2706.71,43,Female,California,3,5,3,353,2,Loyal Customers
+965,201,4,2007.63,33,Male,California,2,3,2,232,1,At Risk
+966,538,1,743.82,52,Male,California,1,1,1,111,3,At Risk
+967,107,7,4455.26,26,Female,Illinois,3,5,4,354,0,Loyal Customers
+968,265,3,2257.3199999999997,56,Female,Florida,1,2,2,122,1,At Risk
+969,62,6,5497.07,34,Female,California,4,4,5,445,0,Champions
+970,38,6,2494.79,18,Female,Texas,4,4,2,442,2,Loyal Customers
+971,329,3,893.54,36,Female,Texas,1,2,1,121,3,At Risk
+972,69,4,3995.73,26,Female,Illinois,4,3,4,434,2,Loyal Customers
+973,25,2,572.01,45,Male,Illinois,5,1,1,511,1,Potential Loyalists
+974,346,3,850.0500000000001,27,Female,New York,1,2,1,121,3,At Risk
+975,10,6,5574.99,29,Male,New York,5,4,5,545,0,Champions
+976,492,2,336.52,18,Male,New York,1,1,1,111,3,At Risk
+977,123,4,3240.36,29,Female,Illinois,3,3,3,333,2,Loyal Customers
+978,169,5,4186.37,18,Female,Illinois,2,4,4,244,2,At Risk
+979,62,5,3379.66,18,Male,Illinois,4,4,3,443,2,Loyal Customers
+980,123,3,1618.53,44,Female,Texas,3,2,1,321,1,Others
+981,107,8,4094.48,44,Female,Illinois,3,5,4,354,0,Loyal Customers
+982,18,6,5408.969999999999,40,Male,Texas,5,4,5,545,0,Champions
+983,55,5,3340.71,23,Male,New York,4,4,3,443,2,Loyal Customers
+984,135,5,3481.6499999999996,34,Male,New York,3,4,3,343,2,Loyal Customers
+985,95,4,2662.17,34,Female,New York,3,3,3,333,1,Loyal Customers
+986,21,5,2989.4,21,Male,California,5,4,3,543,2,Loyal Customers
+987,53,6,4031.9700000000003,53,Female,California,4,4,4,444,2,Champions
+988,29,8,5416.02,45,Male,Florida,5,5,5,555,0,Champions
+989,227,6,3615.87,32,Male,Florida,2,4,4,244,2,At Risk
+990,140,2,761.46,35,Male,Florida,3,1,1,311,1,Others
+992,29,10,4646.38,18,Female,California,5,5,4,554,0,Champions
+993,11,6,3944.5,32,Male,Florida,5,4,4,544,2,Champions
+994,424,1,765.82,26,Male,Florida,1,1,1,111,3,At Risk
+995,135,3,1622.64,22,Male,Illinois,3,2,1,321,1,Others
+996,206,2,1721.9699999999998,31,Female,Florida,2,1,2,212,1,At Risk
+997,67,5,2663.54,56,Male,Illinois,4,4,3,443,2,Loyal Customers
+998,37,5,4938.92,42,Female,Texas,4,4,5,445,2,Champions
+999,34,6,3449.2599999999998,28,Male,California,5,4,3,543,2,Loyal Customers
+1000,118,8,3464.25,41,Male,Florida,3,5,3,353,2,Loyal Customers

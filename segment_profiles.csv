@@ -1,0 +1,6 @@
+segment_name,avg_recency,avg_frequency,avg_monetary,customer_count,avg_age,percentage
+At Risk,280.47,4.01,2561.2,395,34.91,39.7
+Champions,34.39,7.67,5221.33,175,35.94,17.6
+Loyal Customers,73.04,5.94,3591.67,265,34.52,26.7
+Others,111.48,3.16,1997.88,63,35.62,6.3
+Potential Loyalists,42.56,3.12,2073.42,96,35.53,9.7
