@@ -1,0 +1,51 @@
+product_id,product_name,product_category,unit_price
+1,Product_1,Clothing,359.39
+2,Product_2,Clothing,336.53
+3,Product_3,Clothing,483.36
+4,Product_4,Home & Garden,382.91
+5,Product_5,Electronics,475.88
+6,Product_6,Sports,354.24
+7,Product_7,Electronics,156.05
+8,Product_8,Electronics,61.63
+9,Product_9,Electronics,393.09
+10,Product_10,Clothing,325.63
+11,Product_11,Books,33.61
+12,Product_12,Clothing,186.42
+13,Product_13,Clothing,478.83
+14,Product_14,Electronics,255.2
+15,Product_15,Clothing,222.04
+16,Product_16,Electronics,234.27
+17,Product_17,Books,112.35
+18,Product_18,Sports,190.67
+19,Product_19,Electronics,191.21
+20,Product_20,Books,35.65
+21,Product_21,Sports,386.11
+22,Product_22,Home & Garden,214.09
+23,Product_23,Electronics,412.87
+24,Product_24,Electronics,426.67
+25,Product_25,Home & Garden,113.88
+26,Product_26,Home & Garden,332.1
+27,Product_27,Electronics,241.42
+28,Product_28,Home & Garden,441.28
+29,Product_29,Clothing,115.71
+30,Product_30,Sports,342.13
+31,Product_31,Sports,307.8
+32,Product_32,Sports,154.7
+33,Product_33,Clothing,76.93
+34,Product_34,Home & Garden,329.3
+35,Product_35,Books,371.91
+36,Product_36,Home & Garden,164.66
+37,Product_37,Electronics,325.97
+38,Product_38,Sports,203.61
+39,Product_39,Home & Garden,359.47
+40,Product_40,Books,107.62
+41,Product_41,Electronics,446.21
+42,Product_42,Clothing,150.83
+43,Product_43,Clothing,190.22
+44,Product_44,Books,38.47
+45,Product_45,Electronics,64.64
+46,Product_46,Sports,262.77
+47,Product_47,Home & Garden,141.12
+48,Product_48,Electronics,419.39
+49,Product_49,Clothing,17.2
+50,Product_50,Books,195.76
